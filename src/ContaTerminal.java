@@ -15,7 +15,7 @@ public class ContaTerminal {
         System.out.println("=============== CADASTRO DE CONTAS ===============\n");
         System.out.print("\n");
 
-        System.out.print("Digite seu nome completo\n ");
+        System.out.print("Digite seu nome: \n ");
         nomeCliente = sc.nextLine();
         System.out.print("\n");
 
@@ -24,18 +24,18 @@ public class ContaTerminal {
         agencia = sc.nextLine();
         System.out.println("\n");
 
-        System.out.println("Por favor digite o número da sua conta\n");
-        System.out.println("Conta: ");
+        System.out.print("Por favor digite o número da sua conta\n");
+        System.out.print("Conta: ");
         numero_conta = sc.nextInt();
         System.out.print("\n");
 
-        System.out.println("Informe o valor do seu saldo\n");
-        System.out.println("Saldo: ");
+        System.out.print("Informe o valor do seu saldo\n");
+        System.out.print("Saldo: ");
         saldo = sc.nextDouble();
         System.out.print("\n");
 
-        System.out.println("Olá "+ nomeCliente + " ,obrigado por criar uma conta em nosso banco, sua agência é " + agencia + 
-        ", conta " + numero_conta + ", e seu saldo " + saldo + " já está disponível para saque." );
+        System.out.print("Olá "+ nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + 
+        ", conta " + numero_conta + " e seu saldo R$ " + saldo + " já está disponível para saque!" );
 
 
 
